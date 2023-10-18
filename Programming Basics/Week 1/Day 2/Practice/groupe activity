@@ -1,0 +1,19 @@
+
+function js() {
+    var star = 0
+    for (var year = 1996; year <= 2023; year++){
+
+        if (year == 2023) {
+            console.log("happy 27 years of js")
+        } else if (star == 10){
+            star=0
+            console.log("happy decade days js")
+        }
+        else {
+            console.log(year+" happy new year js")}
+        star++
+    }
+}
+
+
+js()
