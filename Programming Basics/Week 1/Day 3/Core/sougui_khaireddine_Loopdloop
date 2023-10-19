@@ -1,0 +1,25 @@
+// 1- the story says " everytime the runner reaches 2 miles
+// 2- the start point of the loop is " the runner reaches 2 miles "
+// 3- the loop stops when the runner reaches 6 miles 
+
+
+function speed() {
+
+var cand=0;
+for (var dis=0; dis<=6; dis++){
+if (dis =2  ){
+    cand=cand+1;
+    console.log(cand);}
+else if(dis= 4){
+    cand=cand+1;
+    console.log(cand+ "candy=2");}
+else if(dis=6){
+    cand=cand+1;
+    console.log(cand);}
+else{
+    cand=0;
+    console.log(nocand);}
+}
+}
+
+speed()
