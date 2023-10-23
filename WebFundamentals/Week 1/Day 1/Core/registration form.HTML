@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration form</title>
+</head>
+<body>
+    <h1>Registration form</h1>
+    <div>
+        <label for="fname">first name:*</label>
+        <input type="text" id="fname">
+    </div>
+    <div>
+        <label for="lname">last name:*</label>
+        <input id="lname"  type="text">
+    </div> 
+    <div>
+        <label for="Email">Email address:*</label>
+        <input id="Email " type="text">
+    </div>
+    <div>
+        <label for="password">Password:*</label>
+        <input id= "password" type= "password">
+    </div>
+    <div>
+        <label for="confirm password">password confirmation</label>
+        <input id="password" type="password">
+    </div>
+    <div>
+        <label for="birthday">birthday</label>
+        <input id="birthday" type="date" birthday="date">
+    </div>
+
+
+    <div>
+        <h3>Gender Identity</h3>
+    </div>
+    <div>
+        <input type="radio" name="font" value="male" id="male">
+        <label for="male"><strong>male</strong></label>
+        <input type="radio" name="font" id="female">
+        <label for="female">female</label>
+        <input type="radio" name="font" id="non_binary">
+        <label for="non-binary">non-binary</label>
+        <input type="radio" name="font" id="i_prefer_not_to_answer">
+        <label for="i_prefer_not_to_answer">I prefer not to answer</label>
+    </div>
+    <h2>A short description about myself</h2>
+    <textarea name="comment" id="" cols="20" rows="3"></textarea>
+    
+    <div>
+        favorite language:
+        <select name="language">
+            <option value="0">JavaScript</option>
+            <option value="1">python</option>
+            <option value="2">css</option>
+            <option value="3">html</option>
+
+    </select>
+    </div>
+    <div>
+        <input type="checkbox" id="validation" name="validation" checked>
+<label for="validation"> yes,i would like to recieve a periodic email updates</label><br>
+
+    </div>
+    <div>
+        <button>
+            Create account
+        </button>
+    </div>
+<h4>indicates a required field</h4>
+</body>
+</html>
