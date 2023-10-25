@@ -1,21 +1,20 @@
-.belgiumflag{
-    background-color: #000000;
-    width:100px ;
-    height:100px;
-    display: column;
-    
+body{
+    display: flex;
 }
 .black-column {
-column:1;
+height: 600px;
+width: 200px;
     background-color: #000000;
 }
 
 .yellow-column{
-column:1;
+    height: 600px;
+    width: 200px;
     background-color: #FFFD55;
 }
 
-.red-columns{
-column:1;
+.red-column{
+    height: 600px;
+    width: 200px;
     background-color: #ED1C24;
 }
