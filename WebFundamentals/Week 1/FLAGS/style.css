@@ -1,0 +1,21 @@
+.belgiumflag{
+    background-color: #000000;
+    width:100px ;
+    height:100px;
+    display: column;
+    
+}
+.black-column {
+column:1;
+    background-color: #000000;
+}
+
+.yellow-column{
+column:1;
+    background-color: #FFFD55;
+}
+
+.red-columns{
+column:1;
+    background-color: #ED1C24;
+}

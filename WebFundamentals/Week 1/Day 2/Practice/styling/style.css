@@ -1,0 +1,18 @@
+.Cloud span{
+
+    color: aqua;
+}
+.Cloud {
+    background-color: black;
+    color: white;
+}
+h2{
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}
+h3{
+    background-color: rgb(0, 138, 192);
+    text-align: right;
+    text-decoration: underline;
+}

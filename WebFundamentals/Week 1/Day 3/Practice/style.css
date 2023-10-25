@@ -1,0 +1,36 @@
+.nav {
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0 30px;
+    font-family: Cambria ;
+    text-decoration-color: aliceblue;
+}
+ul{
+    display: flex;
+    width: 500px;
+    height: 20px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+a{
+    
+    color:white;
+    text-decoration: none;
+}
+.btn{
+    background-color: aqua;
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+font-size: 20px;
+box-shadow: 4px 4px black;
+}
+.active{
+    font-size: larger;
+}
