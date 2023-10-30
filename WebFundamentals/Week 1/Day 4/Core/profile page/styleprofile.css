@@ -1,0 +1,189 @@
+.nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 0px 80px;
+    font-family: Cambria ;
+    text-decoration-color: alice
+    blue;
+    /* text-align: center; */
+    align-items: center;
+    width: 700px;
+
+}
+ul{
+    display: flex;
+    width: 500px;
+    height: 20px;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-content: center;
+    margin-right: 80px;
+    
+}
+a{
+    
+    color:white;
+    text-decoration: none;
+}
+.btn{
+    background-color: rgb(17, 100, 100);
+    border: none;
+    color: white;
+    padding: 10px 5%;
+    text-align: center;
+    text-decoration: none;
+font-size: 15px;
+box-shadow: 4px 4px black;
+list-style-type: none;
+margin-bottom: 10px;
+width: 90px;
+}
+
+.active{
+
+    font-size: larger;
+}
+h1{
+    margin-left: 100px;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-style: 'Roboto', sans-serif;
+
+
+}
+.container{
+    width: 400px;
+    height: 150px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+
+}
+.Fblock{
+    background-color: rgb(18, 88, 88);
+    height: 80px;
+}
+.Sblock{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    border:3px grey solid;
+    border-top: 0;
+    justify-content: end;
+    padding: 20px;
+    justify-content: space-evenly;
+
+}
+
+
+.Sblock img{
+    height: 15px;
+
+}
+img[ alt="userpic"]{
+    height: 80px;
+    position: relative;
+    left: 120px;
+    bottom: 25px;
+}
+.educ{
+    width: 400px;
+    height: 100px ;
+    position: relative;
+    top: 250px ;
+    left:100px ;
+    border: 3px grey solid;
+
+}
+.Sblock p{
+    color: black
+
+}
+.Sblock a{
+color: blue;
+text-decoration: underline;
+}
+
+.bkahla{
+    background-color: rgba(0, 0, 0, 0.171);
+    
+}
+h3{
+    color: white;
+}
+.CR{
+    width: 250px;
+    height: 140px;
+    position: absolute;
+    top: 150px;
+    bottom: 150px;
+    left : 600px;
+    border: 3px grey solid;
+    
+
+}
+.kahla img{
+    height: 20px;
+    
+}
+.bidha img{
+    height:20px;
+    
+}
+.kahla{
+    background-color: rgba(0, 0, 0, 0.171);
+    height:50px
+    
+}
+
+.bidha p{
+    font-size: 20px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding: 9px;
+}
+.YR{
+    position: absolute;
+    top: 350px;
+    left: 600px;
+    height: 800px;
+
+}
+.lastkahla{
+    background-color: rgba(0, 0, 0, 0.171);
+    width: 250px ;
+    height:50px ;
+}
+.lastbidha img{
+    height: 20px;
+
+}
+.lastbidha p{
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+    
+}
+.lekhra{
+    background-color: aliceblue;
+    color: blue;
+    border:grey solid;
+    text-decoration: underline;
+
+}
+.lastbidha{
+    border: grey solid;
+}
+.brdr{
+    height: 225px;
+}

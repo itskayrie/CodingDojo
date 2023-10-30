@@ -1,0 +1,22 @@
+.btn1{
+    background-color: rgba(255, 255, 255, 0.219);
+    color: darkcyan;
+    border-radius: 15px;
+    padding: 12px 28px;
+    
+    
+    
+}   
+.btn{
+    background-color: aqua;
+    color: white;
+    border-radius: 50%;
+}
+.bttn{
+    background-color: blue;
+    color: white;
+    border: 3px black solid;
+    padding: 12px 28p;
+    box-shadow: 3px 3px black;
+    
+}
