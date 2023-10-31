@@ -100,6 +100,8 @@ img[ alt="userpic"]{
     left:100px ;
     border: 3px grey solid;
 
+    
+
 }
 .Sblock p{
     color: black
@@ -152,8 +154,10 @@ h3{
 .YR{
     position: absolute;
     top: 350px;
-    left: 600px;
+    left: 400px;
     height: 800px;
+    align-content: center;
+    align-items: center;
 
 }
 .lastkahla{
@@ -183,7 +187,8 @@ h3{
 }
 .lastbidha{
     border: grey solid;
+
 }
 .brdr{
-    height: 225px;
+width: 200px;
 }
