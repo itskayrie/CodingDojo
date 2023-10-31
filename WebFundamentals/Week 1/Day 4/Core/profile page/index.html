@@ -4,87 +4,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Link CSS -->
     <link rel="stylesheet" href="styleprofile.css">
+    <!-- Link For Googe Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Profile</title>
 </head>
 
 <body>
-    <div class="nav">
-        <h1 class="nav-title">Profile</h1>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#" class="active">My Profile</a></li>
-            <li><a href="#">Find Connections</a></li>
-        </ul>
-        <li><button class="btn">Sign Out</button></li>
+    <div class="top">
+        <div class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+                <li><button class="btn">Sign Out</button></li>
+            </ul>
+        </div>  
     </div>
     <div class="container">
-        <div class="Fblock"></div>
-        <div class="Sblock">
-            <h2>Jane Doe</h2>
-            <p> <img src="map-marker.png" alt="map marker">seattle</p>
-            <div class="description">
-                <p>developer|engineer|problem solver</p>
-                <p>Master of shadows and the internet!</p>
-            </div>
-            <a href="#"><img src="gear.png" alt="gear.png">edit profile</a>
-
-        </div>
-    </div>
-    <div>
-        <img src="user-circle.png" alt="userpic">
-    </div>
-    <div class="educ">
-        <div class="bkahla">
-            <img src="" alt="">s
-            <h3>Education</h3>
-        </div>
-        <div class="bbidha">
-            <h4>Coding dojo- Full Stack Bootcamp</h4>
-            <p>Dec2019 - Mar 2020 </p>
-            <p>Triple black bet in python, Mern ,css</p>
-
-
-
-        </div>
-    </div>
-
-    </div>
-    <div class="CR">
-        <div class="kahla">
-            <h3><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Eo_circle_grey_number-2.svg/2048px-Eo_circle_grey_number-2.svg.png" alt="two">connection request</h3>
-        </div>
-        <div class="bidha">
-            <div>
-            <p><img src="../images/todd-s.jpg" alt="toddpicc">Todd E<img src="../icons/accept-circle.png" alt="acceptpic"><img src="../icons/close-circle.png" alt="closepic"></p>
+        <div class="row">
             
+            <div class="col-2">
+                <div class="user-card">
+                    <div class="card-header">
+                        <img src="../images/jane-m.jpg" alt="janepic" class="userpic">
+                    </div>
+                    <div class="card-body">
+                        <h1>Jane Doe</h1>
+                        <h3>
+                            <img src="map-marker.png" alt="pin" class="icon"> 
+                            Seattle
+                        </h3>
+                        <p>Developer | Engineer | Problem Solver<br>
+                        Master of shadows and the Internet!</p>
+                        <p>
+                            <a href="#">
+                                <img src="gear.png"gear" class="icon"> 
+                                edit profile
+                            </a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="header">
+                        Education
+                    </div>
+                    <div class="card-body">
+                        <h2>Coding Dojo Full Stack Bootcamp</h2>
+                        <p class="dates">Dec 2019 - Mar 2020</p>
+                        <p>Triple Black Belt in Pyton, C#, and MERN...</p>
+                    </div>
+                </div>
+
             </div>
-            <div>
-                <p><img src="../images/phil-s.jpg" alt="philpic">Phil K<img src="../icons/accept-circle.png" alt="acceptpic"><img src="../icons/close-circle.png" alt="closepic"></p>
-                
-                
-            </div>
 
-
-
+            
+            <div class="col">
+                <div class="card">
+                    <div class="header">
+                        <span class="connections">2</span>
+                        Connection Requests
+                    </div>
+                    <div class="user-line">
+                        <span class="start">
+                            <img src="../images/todd-s.jpg" alt="toddpic" class="img1">
+                            <span>Todd E</span>
+                        </span>
+                        <span class="end">
+                            <img src="../icons/accept-circle.png" alt="acceptpic" class="img1">
+                            <img src="../icons/close-circle.png" alt="closepic" class="img1">
+                        </span>
+                    </div>
+                    <div class="user-line">
+                        <span class="start">
+                            <img src="../images/phil-s.jpg" alt="philpic" class="img1">
+                            <span>Phil K.</span>
+                        </span>
+                        <span class="end">
+                            <img src="../icons/accept-circle.png" alt="acceptpic" class="img1">
+                            <img src="../icons/close-circle.png" alt="closepic" class="img1">
+                        </span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <span class="connections">500+</span>
+                        Your Connections
+                    </div>
+                    <div class="user-line">
+                        <span class="start">
+                            <img src="../images/adrien-s.jpg" alt="adrienpic" class="img2">
+                            <span>Adrien D</span>
+                        </span>
+                    </div>
+                    <div class="user-line">
+                        <span class="start"> 
+                            <img src="../images/anne-s.jpg" alt="annepic" class="img2">
+                            <span>Anne J</span>
+                        </span>
+                    </div>
+                    <div class="user-line">
+                        <span class="start">
+                            <img src="../images/alayne-s.jpg" alt="alaynpic" class="img2">
+                            <span>Alayne T</span>
+                        </span>
+                    </div>
+                    <div class="user-line">
+                        <span class="start">
+                            <img src="../images/arry-s.jpg" alt="arrypic" class="img2">
+                            <span>Arry Y</span>
+                        </span>
+                    </div>
+                    <div class="lekhra">
+                        <a href="#">View More</a>
+                    </div>
+                </div>
+            </div>  
         </div>
-
     </div>
-    <div class="YR">
-        <div class="lastkahla">
-        <h3> Your Connection</h3>
-        </div>
-        <div class="lastbidha">
-            <div class="brdr">
-                
-            <ul><img src="../images/adrien-s.jpg" alt="adrienpic">Adrien D</ul>
-            <ul><img src="../images/anne-s.jpg" alt="anepic">Anne J</ul>
-            <ul><img src="../images/alayne-s.jpg" alt="alaypic">Alayn T</ul>
-            <ul><img src="../images/arry-s.jpg" alt="arrypic">Arry Y</ul>
-            </div>
-        </div>
-        <div class="lekhra">view more</div>
-    </div>
+</body>
 
 
 </body>
