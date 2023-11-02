@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="stylewe.css">
+</head>
+
+<body>
+    <!--TOP NAV-->
+    <nav>
+        <h1 class="tnt">DojoWeather</h1>
+        <div>
+            <ul class="tnl">
+                <li><a onclick="alertme()" href="#">Burbank </a></li>
+                <li><a onclick="alertme()" href="#">Chicago</a></li>
+                <li><a onclick="alertme()"href="#">Dallas</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--HEADER-->
+    <div>
+
+        <header>
+            <h2 class="San">San Jose</h2>
+            <div class="rightH">
+                <h4>show temperature in</h4>
+                <select name="temperature" id="temp" onchange="convertir(this.value)" >
+                    <option value="C">°C</option>
+                    <option value="F">°F</option>
+                    
+                </select>
+        </div>
+    </header>
+    <br>
+    <hr>
+    <!--MAIN CONTENT-->
+    <div class="maincontent">
+        <div class="today">
+            <h3>Today</h3>
+            <img src="../Dojoweather/assets/some_rain.png" alt="rainpic">
+            <p class="Weather">some rain</p>
+            <div class="degree">
+                <span id="red1" class="red">24</span>
+                <span id="blue1" class="blue">18</span>
+            </div>
+            
+        </div>
+        <div class="today">
+            <h3>Tomorrow</h3>
+            <img src="../Dojoweather/assets/some_sun.png" alt="sunpic">
+            <p class="Weather">some rain</p>
+            <div class="degree">
+                <span id="red2" class="red">27</span>
+                <span id="blue2" class="blue">19</span>
+            </div>
+            
+        </div>
+        <div class="today">
+            <h3>Friday</h3>
+            <img src="../Dojoweather/assets/some_clouds.png" alt="cloudpic">
+            <p class="Weather">some clouds</p>
+            <div class="degree">
+                <span id="red3" class="red"> 21</span>
+                <span id="blue3" class="blue">16</span>
+            </div>
+
+        </div>
+        <div class="today">
+            <h3>Saturday</h3>
+            <img src="../Dojoweather/assets/some_sun.png" alt="sunpic">
+            <p class="Weather">some sun</p>
+            <div class="degree">
+                <span id="red4" class="red">26</span>
+                <span id="blue4" class="blue">21</span>
+            </div>
+            
+        </div>
+    </div>
+    <!--FOOTER-->
+</div>
+    <div class="footer">
+        <div><img src="../Dojoweather/assets/cookie.png" alt="cookiepic"></div>
+        <div  class="title">
+            <h2>Stop! Cookie time</h2>
+            <p>We use cookies (sadly not the edible ones) to personalize content <br> and ads, to provide social media
+                features and to <br>analyse our traffic <a href="#">Read more</a></p>
+            </div>
+            <button onclick="removelement()">I accept</button>
+        </div>
+        
+    </body>
+    <!--JS LINK-->
+    <script src="scriptwe.js"></script>
+    
+</html>

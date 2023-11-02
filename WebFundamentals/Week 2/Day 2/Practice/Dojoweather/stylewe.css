@@ -1,0 +1,135 @@
+/*--CSS RESET--*/
+* {
+    padding: 0;
+    margin: 0 auto;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* body {
+    width: 1000px;
+    margin: 0 auto;
+} */
+
+/*--TOP NAV--*/
+nav {
+    display: flex;
+    background-color: rgb(88, 180, 255);
+    
+    height: 60px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.tnl {
+    display: flex;
+    flex-direction: row;
+
+    list-style-type: none;
+    padding-top: 15px;
+
+}
+
+.tnt {
+    font-weight: bold;
+    color: white;
+    padding-top: 10px;
+}
+
+ul li a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+
+}
+
+header {
+    display: flex;
+
+}
+
+.rightH {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 10px;
+
+
+}
+
+.San{
+    margin-top: 35px;
+    margin-left: 165px;
+}
+
+select {
+    border: 2px solid black;
+}
+
+.today {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.068);
+    width: 20%;
+    justify-content:space-evenly;
+    
+}
+
+.maincontent {
+    
+    display: flex;
+    gap: 10px;
+    width: 1000px;
+    justify-content: space-evenly;
+    height: 350px;
+}
+
+.today img {
+    border-radius: 50%;
+    width: 130px;
+    padding: 5px;
+    gap: 100px;
+    position: relative;
+    top: 70px;
+}
+.degree{
+    margin-top: 30px;
+    
+
+}
+.degree, .red{
+color: red;
+font-size: 30px;
+}
+.degree, .blue{
+    color: blue;
+    font-size: 30px;
+}
+
+
+hr{
+    width: 965px;
+}
+.footer{
+    
+    display: flex;
+    width: 964px;
+    height:120px; 
+    align-items: center;
+
+}
+.title{
+display: flex;
+flex-direction: column;
+justify-content: start;
+} 
+.title h2{
+    
+}
+button{
+    background-color: rgb(5, 104, 197);
+    box-shadow: 3px 3px black;
+    padding: 5px;
+    /* height: 30px; */
+    width: 80px;
+}
