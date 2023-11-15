@@ -23,7 +23,4 @@ class backaccount :
         total=self.balance+int_rate
         return total
 kiki=backaccount(0.3,2)
-kiki.deposit(2000)
-kiki.withdraw(30)
-kiki.display_account_info()
-kiki.yield_interest()
+kiki.deposit(2000).withdraw(30).display_account_info().yield_interest()
