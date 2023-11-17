@@ -15,7 +15,7 @@ class ninja :
             self.pet.noise()
             return self
     def display_ninja_info(self):
-            print(f"my name is {self.first_name}\npet name is{self.pey.name}")
+            print(f"my name is {self.first_name}\npet name is{self.pet.name}")
             return self
 class pet:
     def __init__(self,name,type,tricks,health,energy):
