@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            text-align: center;
+            margin: auto;
+            gap: 10px;
+            padding: 10px;
+
+        }
+
+        .inputt {
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+            color: yellow;
+            width: 400px;
+            border-radius: 20px;
+
+        }
+
+        .box {
+            justify-content: center;
+        }
+
+        .btn {
+            background-color: yellow;
+            border-radius: 5px;
+            text-decoration: none;
+            color: black;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to the geat number game </h1>
+    <h3>I am thinking of a number between : 1 and 100</h3>
+    <h2>{{rslt}}</h2>
+    <div class="box">
+        <form action="/guess" method="post" class="input" name="kiki">
+            <div class="inputt">
+                <h2>Take a guess !!! </h2>
+                <input type="text" name="guess" id="tguess">
+                <button class="btn" type="submit">Guess</button>
+        </form>
+        {% if 'guess' in session: %}
+        {% if session['guess'] == 63 %}
+
+        <h2>You got the number!</h2>
+        <a href="/clear" >Play Again</a>
+
+        </form>
+        {% elif session['guess'] < 63 %} <h2>Too Low!!!</h2>
+
+
+            {% else %}
+
+            <h2>Too High!!!</h2>
+
+            {% endif %}
+            {% endif %}
+
+    </div>
+
+</body>
+
+</html>
