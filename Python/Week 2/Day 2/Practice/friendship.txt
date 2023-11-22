@@ -1,0 +1,39 @@
+SELECT * FROM friendship_schema.friendships;
+SELECT * FROM friendship_schema.users;
+INSERT INTO users (first_name,last_name) 
+VALUE ("aaallela","fehri"),
+("khaireddine","sougui"),
+("walid","captiin"),
+("rhayem","tA"),
+("aziz","jawoubehi"),
+("samir","sami");
+INSERT INTO friendships (users_id,users_id1)
+VALUES (2,1),
+(2,3),
+(2,5);
+INSERT INTO friendships (users_id,users_id1)
+VALUES (1,2),
+(1,4),
+(1,6);
+INSERT INTO friendships (users_id,users_id1)
+VALUES(3,2),(3,5);
+INSERT INTO friendships (users_id,users_id1)
+VALUES(4,3);
+INSERT INTO friendships (users_id,users_id1)
+VALUES(5,1),
+(5,6);
+INSERT INTO friendships (users_id,users_id1)
+VALUES(6,2),
+(6,3);
+SELECT users.first_name, users.last_name, users2.first_name as friend_first_name, users2.last_name as friend_last_name FROM users
+JOIN friendships
+ ON users.id = friendships.users_id
+LEFT JOIN users as users2
+ ON users2.id = friendships.users_id1;
+ SELECT users.first_name, users.last_name, users2.first_name as friend_first_name, users2.last_name as friend_last_name FROM users
+JOIN friendships
+ ON users.id = friendships.users_id
+LEFT JOIN users as users2
+ ON users2.id = friendships.users_id1
+ WHERE users.id=1;
+ 
