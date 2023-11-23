@@ -47,6 +47,6 @@ SELECT * FROM books
 join favourites on books.id=favourites.book_Id 
 where user_id=3;
 SELECT * FROM users 
-join favourites on users.id=favourites.book_Id 
+join favourites on users.id=favourites.user_id
 where book_Id=5;
 
