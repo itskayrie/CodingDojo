@@ -58,6 +58,6 @@ def effacer(id):
         'id':id
     }
     User.delete(data)
-    return redirect ('/read_all')
+    return redirect ('/users')
     
     
