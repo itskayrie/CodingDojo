@@ -12,23 +12,23 @@ const Form =()=>{
         navigate(`/${category}/${id}`)
     }
     return(
-        <div className='row'>
-        <form className='d-flex justify-content-center align-items-center gap-5' onSubmit={(e)=>search(e)}>
-            <div className="d-flex justify-content-center align-items-center gap-3">
-                <label htmlFor="cat" className='h4'>Search for:</label>
+        <div >
+        <form  onSubmit={(e)=>search(e)}>
+            <div >
+                <label htmlFor="category" >Search for:</label>
                 <select className="form-select" id="category" onChange={(e)=>{SetCategory(e.target.value)}}>
                     <option value="people" selected>people</option>
                     <option value="planets">planets</option>
                     <option value="starships">starships</option>
                 </select>
             </div>
-            <div className="d-flex justify-content-center align-items-center gap-3">
-                <label htmlFor="id" className='h4'>ID:</label>
-                <input type="number" className='form-control' id='id' 
+            <div >
+                <label htmlFor="id" >ID:</label>
+                <input type="number"  id='id' 
                 onChange={(e)=>{setId(e.target.value)}} value={id} />
             </div>
-            <div className="d-flex justify-content-center align-items-center gap-3">
-                <button className='btn btn-secondary btn-lg'>Search</button>
+            <div >
+                <button >Search</button>
             </div>
         </form>
     </div>
